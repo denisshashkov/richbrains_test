@@ -1,0 +1,17 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  &__btn-primary,
+  &__btn-transparent {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+}

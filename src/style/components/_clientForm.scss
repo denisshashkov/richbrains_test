@@ -1,0 +1,76 @@
+.form {
+  display: flex;
+  gap: 20px;
+  &__avatar {
+    width: 100%;
+    height: 100%;
+    &-wrap {
+      width: 30%;
+      height: 50%;
+    }
+  }
+
+  &__input-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #313131;
+    display: block;
+    margin-bottom: 7px;
+    text-align: start;
+  }
+  &__input {
+    border: 1px solid rgba(38, 38, 38, 0.12);
+    padding: 10px 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+
+  &__button-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  &__button {
+    padding: 12px 25px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  &__error-text {
+    color: $red;
+  }
+  &__aye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+}
+
+.client {
+  width: 800px;
+}
+
+.input-wrap {
+  position: relative;
+}

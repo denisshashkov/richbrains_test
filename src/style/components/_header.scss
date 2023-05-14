@@ -1,0 +1,36 @@
+.header {
+  height: 60px;
+  padding: 10px 40px 10px 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background: $white;
+  &__logo {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 60px;
+    background: $blue;
+    padding: 21px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-text {
+      color: $white;
+      font-size: 27px;
+    }
+  }
+  &__title {
+    font-size: 20px;
+  }
+  &__button {
+    gap: 8px;
+    padding: 12px 25px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+}

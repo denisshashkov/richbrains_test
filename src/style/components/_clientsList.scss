@@ -1,0 +1,21 @@
+.list {
+  width: 786px;
+  background: $white;
+  overflow-y: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05));
+  &__header {
+    height: 60px;
+    padding: 20px 150px 20px 37px;
+    display: flex;
+    justify-content: space-around;
+    &-title {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+}
