@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/Button';
+import { useDispatch } from 'react-redux';
+import { logout } from '../store/authSlice';
 
 export const Logout = ({
   setVisibleModal,
@@ -7,8 +9,10 @@ export const Logout = ({
   setSuccessTooltip,
   setTooltipText,
 }) => {
+  const dispatch = useDispatch();
+
   const logoutHandler = () => {
-    sessionStorage.setItem('token', '');
+    dispatch(logout());
     setVisibleModal(false);
     setVisibleTooltip(true);
     setSuccessTooltip(true);

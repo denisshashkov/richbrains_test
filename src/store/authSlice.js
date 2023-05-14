@@ -8,12 +8,12 @@ export const authSlice = createSlice({
       sessionStorage.setItem('token', action.payload.token);
       state.token = action.payload.token;
     },
-    logOut: (state) => {
-      sessionStorage.setItem('token', null);
+    logout: () => {
+      sessionStorage.setItem('token', '');
     },
   },
 });
 
-export const { signIn, logOut } = authSlice.actions;
+export const { signIn, logout } = authSlice.actions;
 
 export default authSlice.reducer;
