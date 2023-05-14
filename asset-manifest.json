@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reachbrains_test/static/css/main.e4c58fe4.css",
+    "main.js": "/reachbrains_test/static/js/main.717b25cf.js",
+    "static/media/maleAvatar.svg": "/reachbrains_test/static/media/maleAvatar.1684d1321358de06946199db267af38b.svg",
+    "static/media/femaleAvatar.svg": "/reachbrains_test/static/media/femaleAvatar.03e8d252d2f944df296385c4402194b3.svg",
+    "static/media/phone.svg": "/reachbrains_test/static/media/phone.088b581b3b80b1c61cf5ae7d9b09be44.svg",
+    "static/media/hidePassword.svg": "/reachbrains_test/static/media/hidePassword.4a4e193f98ec6f3f181362c66590880b.svg",
+    "static/media/profile.svg": "/reachbrains_test/static/media/profile.1f8e702b9d419b8b572d781dc28da0da.svg",
+    "static/media/trash.svg": "/reachbrains_test/static/media/trash.f25effd9995092b4b794f148cf0fff9e.svg",
+    "static/media/pencil.svg": "/reachbrains_test/static/media/pencil.9bc0b501b53d09a17a0a2a36386f4456.svg",
+    "static/media/showPassword.svg": "/reachbrains_test/static/media/showPassword.30effca3ba4b65d3aac9dbeb84da062e.svg",
+    "static/media/logout.svg": "/reachbrains_test/static/media/logout.d3eea456253d9ce01c18c3c1c19ef54c.svg",
+    "static/media/signIn.svg": "/reachbrains_test/static/media/signIn.d3eea456253d9ce01c18c3c1c19ef54c.svg",
+    "index.html": "/reachbrains_test/index.html",
+    "static/media/plus.svg": "/reachbrains_test/static/media/plus.71c1bf2dae0c330a8ff35dd1cda846af.svg",
+    "static/media/close.svg": "/reachbrains_test/static/media/close.cc4eb73a00eb7824a39a8d6041875f16.svg",
+    "main.e4c58fe4.css.map": "/reachbrains_test/static/css/main.e4c58fe4.css.map",
+    "main.717b25cf.js.map": "/reachbrains_test/static/js/main.717b25cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4c58fe4.css",
+    "static/js/main.717b25cf.js"
+  ]
+}
